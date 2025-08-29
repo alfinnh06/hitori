@@ -4,14 +4,14 @@ const chalk = require('chalk');
 /*
 	* Create By Naze
 	* Follow https://github.com/nazedev
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+	* Whatsapp : https://chat.whatsapp.com/FC2lTqmkS0SLLy1R2swIkh?mode=ems_copy_c
 */
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
+global.owner = ['6285148034903'] //['628','628'] 2 owner atau lebih
+global.author = 'ALFIN'
+global.botname = 'LIBRA Bot'
 global.packname = 'Bot WhatsApp'
 global.listprefix = ['+','!','.']
 
@@ -38,7 +38,7 @@ global.fake = {
 global.my = {
 	yt: 'https://youtube.com/c/Nazedev',
 	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/B5qJIwZHm4VEYZJQE6iMwy',
+	gc: 'https://chat.whatsapp.com/FC2lTqmkS0SLLy1R2swIkh?mode=ems_copy_c',
 	ch: '120363250409960161@newsletter',
 }
 
@@ -90,3 +90,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
